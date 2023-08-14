@@ -1,0 +1,157 @@
+/* APPLY FOR ALL */
+*{  
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #242424;
+}
+
+/* HEADING TAG START */
+header{
+    width: 1300px;
+}
+
+.element{
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.title{
+    background-color: blueviolet;
+    padding: 6px;
+    display: flex;
+    text-align: center;
+}
+
+.title b{
+    background-color: #fff;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.title marquee{
+    font-size: 20px;
+    color: #ffffff;
+    width: 80%;
+}
+/* HEADING TAG END */
+
+/* LOGO AND MENU SECTION START */
+.logo{
+    height: 100px;
+    width: 1300px;
+}
+
+nav{
+    float: right;
+    padding: 25px 0px;
+}
+
+nav a:hover{
+    color: red;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 2px 10px;
+    font-weight: 500;
+}
+
+.logo img{
+    width: 500px;
+}
+/* LOGO AND MENU SECTION END */
+
+/* EVENT SECTION START */
+.event{
+    display: flex;
+    width: 1300px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.recentevent{
+    border: 2px solid black;
+}
+
+.collageevent{
+    border: 2px solid black;
+}
+
+.eventtitle{
+    width: 200px;
+    background-color: cadetblue;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#doc{
+    height: 150px;
+    width: 200px;
+}
+
+.eventimage :hover{
+    border: 5px solid black;
+}
+
+/* EVENT SECTION END */
+
+/* COLAGE HISTORY START */
+.history{
+    width: 1300px;
+    text-align: center;
+}
+
+.historytitle{
+    width: 1300px;
+    height: max-content;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.colagehistory{
+    width: 1000px;
+    text-align: center;
+    padding-left: 150px;
+}
+/* COLAGE HISTORY END */
+
+/* IMAGE SECTION START */
+.galarytitle{
+    width: 1300px;
+    height: fit-content;
+    background-color: aquamarine;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.galary{
+    width: 1300px;
+}
+
+.galary img{
+    width: 320px;
+    justify-content: space-between;
+}
+/* IMAGE SECTION END */
+
+/* FOOTER PART START */
+footer{
+    width: 1300px;
+    text-align: center;
+    background-color: rgb(94, 94, 51);
+    font-size: larger;
+    color: bisque;
+}
+/* FOOTER PART END */
